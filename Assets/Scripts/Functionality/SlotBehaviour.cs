@@ -669,7 +669,14 @@ public class SlotBehaviour : MonoBehaviour
         if (TotalWin_text) TotalWin_text.text = SocketManager.playerdata.currentWining.ToString("F3");
         BalanceTween?.Kill();
         if (Balance_text) Balance_text.text = SocketManager.playerdata.Balance.ToString("F3");
-        if (IsFreeSpin)
+
+        if (SocketManager.resultData.expandingWild.isTriggered)
+        {
+            FullPandaAnim.SetActive(true);
+            yield return new WaitForSeconds(1.5f);
+        }
+
+         if (IsFreeSpin)
         {
             if (SocketManager.resultData.freeSpin.symToWild.Count > 0)
             {
@@ -699,12 +706,6 @@ public class SlotBehaviour : MonoBehaviour
         }
         yield return new WaitUntil(() => !CheckPopups);
 
-
-        if (SocketManager.resultData.expandingWild.isTriggered)
-        {
-            FullPandaAnim.SetActive(true);
-            yield return new WaitForSeconds(1.5f);
-        }
 
         if (SocketManager.resultData.cascade.Count > 0)
         {
@@ -938,6 +939,18 @@ public class SlotBehaviour : MonoBehaviour
             else
             {
                 yield return new WaitForSeconds(1.5f);
+            }
+            for (int k = 0; k < points_anim.Count; k++)
+            {
+                if (points_anim[k] >= 10)
+                {
+                    FrameAnimationimages[(points_anim[k] / 10) % 10].slotImages[points_anim[k] % 10].gameObject.SetActive(false);
+                }
+                else
+                {
+                    FrameAnimationimages[0].slotImages[points_anim[k]].gameObject.SetActive(false);
+                }  // This is for To stop the Frame aniamiton for temp , we will add animatio of frame after getting 
+
             }
             LineWin_Text.gameObject.SetActive(false);
             PayCalculator.ResetLines();
