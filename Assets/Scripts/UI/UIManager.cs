@@ -7,7 +7,6 @@ using DG.Tweening;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Networking;
-using UnityEditor.IMGUI.Controls;
 
 public class UIManager : MonoBehaviour
 {
