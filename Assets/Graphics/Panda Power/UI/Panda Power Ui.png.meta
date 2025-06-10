@@ -1,0 +1,2007 @@
+fileFormatVersion: 2
+guid: bd87fc5bbce0344f1ab0c0e8a7bbba9f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Panda Power Ui_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1923
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dc72097192f42c48e0c975dbc02afb
+      internalID: -1984189549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1923
+        width: 267
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991a1911f5f9a496ca91ac4e96926cc7
+      internalID: 452038799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_2
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1923
+        width: 266
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc94dd5031f334a589ba3b8fa90dc97c
+      internalID: -1638298440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_3
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1923
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836578199df8f45d3aa94c4ec1a0705c
+      internalID: 442340170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_4
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1934
+        width: 268
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8603ff70349d14364a274d273b344d73
+      internalID: 1117395868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_5
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1934
+        width: 267
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e1e4e6280f34d49baa8818d74c8342
+      internalID: 353947945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_6
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1934
+        width: 268
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c11c0677b1b40309f159dc49c28030
+      internalID: 1996179159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_7
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 1934
+        width: 268
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81458e3c3097a4dfb86eb932920600a4
+      internalID: -1780939955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_8
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 1937
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe0b2263d42846b6af999d1126625f1
+      internalID: -1590796506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_9
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 1937
+        width: 266
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329f77c225ac544c3bc38844feb3b5ed
+      internalID: 2037430869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_10
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1937
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0ddb7b382684b46b90d7ce4045ebfb
+      internalID: 1513351188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_11
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 1937
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3db9588aba574aa5a7d045a99c3654d
+      internalID: 1889753827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_12
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 1934
+        width: 267
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3948c022d5fcd4d7392a50ce8a6a2c9b
+      internalID: -1005739435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_13
+      rect:
+        serializedVersion: 2
+        x: 4315
+        y: 1934
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a63ba167d8af4fb8a21c6969c3f27d9
+      internalID: -1979761893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1602
+        width: 268
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f38dc757269048bba7e4f908d5c242f
+      internalID: -670443351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_15
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1602
+        width: 267
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb98192abc4348248d6a65c851caaa0
+      internalID: 132812019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_16
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1602
+        width: 266
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8cd42a3c5a248bfb8a43a2b2f86fa9
+      internalID: -2111498160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_17
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1602
+        width: 268
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd587932de444c1e9ca8d738dcde3a3
+      internalID: 144134590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_18
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1611
+        width: 268
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c720040afff46af9a3fce4eeb42ad8
+      internalID: -546047517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_19
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1611
+        width: 267
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b08f5a13847640d59d2f7400b25f348
+      internalID: -284338457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_20
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1611
+        width: 268
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8421382dbbfb4192b72960b5e68e578
+      internalID: -950614808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_21
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 1611
+        width: 268
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe07c05514b44c72b5b6d48001be4d3
+      internalID: 517601525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_22
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 1616
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d8548e00b6f4eceb9cf2ca11b83da5
+      internalID: -1933068646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_23
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 1616
+        width: 266
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00d01c61642a4e30b5e68558ccf158d
+      internalID: 2051764483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_24
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1616
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9771cd05e3c24c3595d271af8c3312a
+      internalID: 945035872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_25
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 1616
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dfc6effae13462fa11fa4a60621db2
+      internalID: -516006400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_26
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 1612
+        width: 267
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5608e7ed5193a40d38f437405fd511d4
+      internalID: -868937714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_27
+      rect:
+        serializedVersion: 2
+        x: 4315
+        y: 1612
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2afd1c6872f4cfdab731fe8b8cdaa0
+      internalID: -1494520877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_28
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1276
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa06b871892854aca846a317d2ff67a9
+      internalID: -96336484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_29
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1276
+        width: 267
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4f29d4b0b8a45ca9d508238e7e7fb2
+      internalID: -1667399903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_30
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1276
+        width: 266
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897d84cbcd57241768490f8d14e46042
+      internalID: 1683992107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_31
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1276
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1495679b0cf64e34baba09db3eb9d8d
+      internalID: 1457634955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_32
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1287
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5d5b3ca74274ccda14d93cbfee9393
+      internalID: 659018681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_33
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1287
+        width: 267
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edae576ecf1f400aaacdba23ef9c97d
+      internalID: -963971478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_34
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1287
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d232c48f94184859bcad2899d181db5
+      internalID: 857956644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_35
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 1287
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8314a5ce7f1462dbe9d8480c3d79dc
+      internalID: -915050215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_36
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 1291
+        width: 268
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0478780e0a79f4cf1bf025bb275ca065
+      internalID: 1519874671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_37
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 1291
+        width: 266
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa51096d37fd440678bdb1a3599c322d
+      internalID: -839947449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_38
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1291
+        width: 268
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd4d1466eb3d4d7786382dc5c8feebc
+      internalID: 187946719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_39
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 1291
+        width: 268
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f391d0b6cf0c14d63b218fc9fd438687
+      internalID: 1529088175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_40
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 1287
+        width: 267
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262a3663946ec4de3b2e5d4e3f598eae
+      internalID: -1050262489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_41
+      rect:
+        serializedVersion: 2
+        x: 4315
+        y: 1287
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989a9832013ea41b794eba208744eb42
+      internalID: 155992518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_42
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 837
+        width: 327
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b662fce5e3f4269b69b602e33b5782
+      internalID: -186361142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_43
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 837
+        width: 327
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4199ee9461aa438999d6de0839dff20
+      internalID: 1115106355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_44
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 837
+        width: 330
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c9ed382a86b4812ba230ade3c8f63e
+      internalID: 692720345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_45
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 855
+        width: 327
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3ce56b6f3d8443a88a5579b5d12771
+      internalID: -1717525123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_46
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 1119
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d411fd4378246ca9a633461737a927
+      internalID: 416236287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_47
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 1116
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36e05e41bbac4c1885d8271f3464c9a
+      internalID: -930799143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_48
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 1116
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3838888f10e494d87cced2749956f7
+      internalID: 376396875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_49
+      rect:
+        serializedVersion: 2
+        x: 4006
+        y: 1044
+        width: 143
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b976603acdce0498d8da0a71bdabf6f7
+      internalID: -379130759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_50
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 1007
+        width: 254
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bebc138e17d0420aacf563e7aaa13eb
+      internalID: -2099968731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_51
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 835
+        width: 254
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a183788f3f6a0448085939535bed427d
+      internalID: 678318460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_52
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 835
+        width: 254
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0843f098e5a491eb2dfafdf5ec7499
+      internalID: -963812094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_53
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 933
+        width: 150
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87fec59fb04949ba8257c087128bd6f
+      internalID: 117707646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_54
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 933
+        width: 150
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fa0e20b5aa741f596c1af0f66930ec
+      internalID: -1462852910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_55
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 933
+        width: 150
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b245d3aeeed2046beb884f5ee4535bb9
+      internalID: 987997209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_56
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 919
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6a9ca74543c475f9b6c13e2313c320
+      internalID: -748996859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_57
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 919
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb7ea60484a74e3a85adaf67dee31d6
+      internalID: 888294003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_58
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 944
+        width: 91
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9e132d621a84aa9b35f705571720a6
+      internalID: -1671737392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_59
+      rect:
+        serializedVersion: 2
+        x: 4006
+        y: 830
+        width: 143
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aace94c347c034230848553f6de4a012
+      internalID: -1487643376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_60
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 492
+        width: 254
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002bb2835f2e94e9e8f00c665ca3ddf6
+      internalID: 7903798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_61
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 492
+        width: 254
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47253aea563c7478faad66bdbd42279b
+      internalID: -511026207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_62
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 467
+        width: 327
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f04ebd4d4354d5b9066238b2213210
+      internalID: -1251178745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_63
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 467
+        width: 327
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19895dc89922d4c52ad2e182622eba98
+      internalID: -2007028744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_64
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 462
+        width: 330
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb431957caaad42a0a71c864677e5274
+      internalID: 40870109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_65
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 469
+        width: 327
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a462aea941f44765b0eccdee432563e
+      internalID: -2047832174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_66
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 707
+        width: 150
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770e7d048df864a2b9ffcf9c42d87b30
+      internalID: 1629881624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_69
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 707
+        width: 150
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f2642cdba9a4d719786bfbfe7b006e
+      internalID: -491011998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_72
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 707
+        width: 150
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d86d7cc904e4dbc99799a9c0f43bb3
+      internalID: 1925823505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_75
+      rect:
+        serializedVersion: 2
+        x: 4006
+        y: 619
+        width: 143
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3704ac42931aa444bb19a21e997c3eef
+      internalID: -1295404464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_76
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 732
+        width: 254
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26906afb07004fad95bdfde38ebad32
+      internalID: 1916726582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_77
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 197
+        width: 334
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e728246e35fa944c081404f859f78d26
+      internalID: -1311787800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_78
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 203
+        width: 334
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449c10a6e4dfd4ddeb23f2e4ab5a3387
+      internalID: -754369946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_79
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 203
+        width: 334
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a1cc66e85a0463ab3b93cb70675bba
+      internalID: -1410794067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_80
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 460
+        width: 250
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815c9331d4b1444fea602873fde57222
+      internalID: 1669848844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_81
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 147
+        width: 254
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478d0b85c80e343c7ac0e58f6b97df86
+      internalID: 2004043541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_82
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 147
+        width: 254
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5884b8b4a887844dbb2b9c9c2b645604
+      internalID: -1173730474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_83
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 67
+        width: 327
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04a57509ba9548e4a5bf904a2bfee46
+      internalID: 2133125172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_84
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 67
+        width: 327
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daa8a7cb9ee64b6caf47fc87ebb7065
+      internalID: -114693816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_85
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 70
+        width: 330
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc7a9f38277c4e85bd7c8cb1bc5218e
+      internalID: 2035075859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_86
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 74
+        width: 327
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbbe6e94a979428faacd30b543d0986
+      internalID: -93560730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_87
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 37
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31464624ae42d4d328ab7df4170c2353
+      internalID: 504326990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_88
+      rect:
+        serializedVersion: 2
+        x: 3336
+        y: 81
+        width: 1120
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8f5f1a30a7e4a7eb35b63aa9d05d6a
+      internalID: -112445740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda Power Ui_89
+      rect:
+        serializedVersion: 2
+        x: 4460
+        y: 47
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f26a95231ccc426cb51c26ac02a5de2
+      internalID: 1689619876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Panda Power Ui_0: -1984189549
+      Panda Power Ui_1: 452038799
+      Panda Power Ui_10: 1513351188
+      Panda Power Ui_11: 1889753827
+      Panda Power Ui_12: -1005739435
+      Panda Power Ui_13: -1979761893
+      Panda Power Ui_14: -670443351
+      Panda Power Ui_15: 132812019
+      Panda Power Ui_16: -2111498160
+      Panda Power Ui_17: 144134590
+      Panda Power Ui_18: -546047517
+      Panda Power Ui_19: -284338457
+      Panda Power Ui_2: -1638298440
+      Panda Power Ui_20: -950614808
+      Panda Power Ui_21: 517601525
+      Panda Power Ui_22: -1933068646
+      Panda Power Ui_23: 2051764483
+      Panda Power Ui_24: 945035872
+      Panda Power Ui_25: -516006400
+      Panda Power Ui_26: -868937714
+      Panda Power Ui_27: -1494520877
+      Panda Power Ui_28: -96336484
+      Panda Power Ui_29: -1667399903
+      Panda Power Ui_3: 442340170
+      Panda Power Ui_30: 1683992107
+      Panda Power Ui_31: 1457634955
+      Panda Power Ui_32: 659018681
+      Panda Power Ui_33: -963971478
+      Panda Power Ui_34: 857956644
+      Panda Power Ui_35: -915050215
+      Panda Power Ui_36: 1519874671
+      Panda Power Ui_37: -839947449
+      Panda Power Ui_38: 187946719
+      Panda Power Ui_39: 1529088175
+      Panda Power Ui_4: 1117395868
+      Panda Power Ui_40: -1050262489
+      Panda Power Ui_41: 155992518
+      Panda Power Ui_42: -186361142
+      Panda Power Ui_43: 1115106355
+      Panda Power Ui_44: 692720345
+      Panda Power Ui_45: -1717525123
+      Panda Power Ui_46: 416236287
+      Panda Power Ui_47: -930799143
+      Panda Power Ui_48: 376396875
+      Panda Power Ui_49: -379130759
+      Panda Power Ui_5: 353947945
+      Panda Power Ui_50: -2099968731
+      Panda Power Ui_51: 678318460
+      Panda Power Ui_52: -963812094
+      Panda Power Ui_53: 117707646
+      Panda Power Ui_54: -1462852910
+      Panda Power Ui_55: 987997209
+      Panda Power Ui_56: -748996859
+      Panda Power Ui_57: 888294003
+      Panda Power Ui_58: -1671737392
+      Panda Power Ui_59: -1487643376
+      Panda Power Ui_6: 1996179159
+      Panda Power Ui_60: 7903798
+      Panda Power Ui_61: -511026207
+      Panda Power Ui_62: -1251178745
+      Panda Power Ui_63: -2007028744
+      Panda Power Ui_64: 40870109
+      Panda Power Ui_65: -2047832174
+      Panda Power Ui_66: 1629881624
+      Panda Power Ui_67: -1173239106
+      Panda Power Ui_68: -681267225
+      Panda Power Ui_69: -491011998
+      Panda Power Ui_7: -1780939955
+      Panda Power Ui_70: -1551977305
+      Panda Power Ui_71: -1493271629
+      Panda Power Ui_72: 1925823505
+      Panda Power Ui_73: -1005837710
+      Panda Power Ui_74: -1243180096
+      Panda Power Ui_75: -1295404464
+      Panda Power Ui_76: 1916726582
+      Panda Power Ui_77: -1311787800
+      Panda Power Ui_78: -754369946
+      Panda Power Ui_79: -1410794067
+      Panda Power Ui_8: -1590796506
+      Panda Power Ui_80: 1669848844
+      Panda Power Ui_81: 2004043541
+      Panda Power Ui_82: -1173730474
+      Panda Power Ui_83: 2133125172
+      Panda Power Ui_84: -114693816
+      Panda Power Ui_85: 2035075859
+      Panda Power Ui_86: -93560730
+      Panda Power Ui_87: 504326990
+      Panda Power Ui_88: -112445740
+      Panda Power Ui_89: 1689619876
+      Panda Power Ui_9: 2037430869
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
