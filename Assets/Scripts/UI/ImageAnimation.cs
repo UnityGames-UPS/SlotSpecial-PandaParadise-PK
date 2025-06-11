@@ -40,8 +40,6 @@ public class ImageAnimation : MonoBehaviour
 	[Header("Deactivate Settings")]
 	public bool deactivateOnFinish = false;
 	public GameObject targetToDeactivate;
-	public bool IsFullPagePanda = false;
-
 
 	private void Awake()
 	{

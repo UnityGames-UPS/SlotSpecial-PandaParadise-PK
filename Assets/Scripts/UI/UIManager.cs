@@ -354,7 +354,6 @@ public class UIManager : MonoBehaviour
 
     private void PopulateSymbolsPayout(Paylines paylines)
     {
-        int count = 0;
         for (int i = 0; i < SymbolsText.Length; i++)
         {
             var symbol = paylines.symbols[i];
@@ -393,29 +392,22 @@ public class UIManager : MonoBehaviour
         {
             if (paylines.symbols[i].Name.ToUpper() == "WILD")
             {
-                Debug.Log($"@@@@@@ symbol WIld");
                 string Description = paylines.symbols[i].description.ToString();
                 if (WildDis_Text) WildDis_Text.text = Description;
             }
             if (paylines.symbols[i].Name.ToUpper() == "X2")
             {
-                Debug.Log($"@@@@@@ symbol X2");
-
                 string Description = paylines.symbols[i].description.ToString();
                 if (X2Descrition_Text) X2Descrition_Text.text = Description;
             }
 
             if (paylines.symbols[i].Name.ToUpper() == "FREESPIN")
             {
-                Debug.Log($"@@@@@@ symbol FreeSpin");
-
                 string Description = paylines.symbols[i].description.ToString();
                 if (FreeSpinDis_Text) FreeSpinDis_Text.text = Description;
             }
             if (paylines.symbols[i].Name.ToUpper() == "FREESPINWILD")
             {
-                Debug.Log($"@@@@@@ symbol FreeSpinWild");
-
                 string Description = paylines.symbols[i].description.ToString();
                 if (FreeSpinWildDis_Text) FreeSpinWildDis_Text.text = Description;
             }
@@ -436,13 +428,7 @@ public class UIManager : MonoBehaviour
     {
         audioController.PlayButtonAudio();
         if (Exit_Object) Exit_Object.SetActive(true);
-        //if (About_Object) About_Object.SetActive(true);
         if (Paytable_Object) Paytable_Object.SetActive(true);
-        //DOTween.To(() => About_RT.anchoredPosition, (val) => About_RT.anchoredPosition = val, new Vector2(About_RT.anchoredPosition.x, About_RT.anchoredPosition.y + 150), 0.1f).OnUpdate(() =>
-        //{
-        //    LayoutRebuilder.ForceRebuildLayoutImmediate(About_RT);
-        //});
-
         DOTween.To(() => Paytable_RT.anchoredPosition, (val) => Paytable_RT.anchoredPosition = val, new Vector2(Paytable_RT.anchoredPosition.x, Paytable_RT.anchoredPosition.y + 125), 0.1f).OnUpdate(() =>
         {
             LayoutRebuilder.ForceRebuildLayoutImmediate(Paytable_RT);
@@ -454,10 +440,6 @@ public class UIManager : MonoBehaviour
     {
 
         if (audioController) audioController.PlayButtonAudio();
-        //DOTween.To(() => About_RT.anchoredPosition, (val) => About_RT.anchoredPosition = val, new Vector2(About_RT.anchoredPosition.x, About_RT.anchoredPosition.y - 150), 0.1f).OnUpdate(() =>
-        //{
-        //    LayoutRebuilder.ForceRebuildLayoutImmediate(About_RT);
-        //});
 
         DOTween.To(() => Paytable_RT.anchoredPosition, (val) => Paytable_RT.anchoredPosition = val, new Vector2(Paytable_RT.anchoredPosition.x, Paytable_RT.anchoredPosition.y - 125), 0.1f).OnUpdate(() =>
         {

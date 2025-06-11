@@ -10724,7 +10724,7 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 9
   delayBetweenLoop: 0
-  deactivateOnFinish: 0
+  deactivateOnFinish: 1
   targetToDeactivate: {fileID: 510880524}
   IsFullPagePanda: 0
 --- !u!114 &510880527
