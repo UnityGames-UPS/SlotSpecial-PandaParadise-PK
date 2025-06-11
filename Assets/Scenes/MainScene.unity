@@ -1168,8 +1168,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 54491289}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &54539833
 GameObject:
@@ -2281,8 +2281,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 92296408}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &98416493
 GameObject:
@@ -3127,7 +3127,7 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 72
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
+  deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!114 &129863490
@@ -3265,8 +3265,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 131154230}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &143185253
 GameObject:
@@ -10724,7 +10724,7 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 9
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
+  deactivateOnFinish: 0
   targetToDeactivate: {fileID: 510880524}
   IsFullPagePanda: 0
 --- !u!114 &510880527
@@ -19482,8 +19482,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 867202852}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &868116398
 GameObject:
@@ -20763,8 +20763,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 892575793}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &898546693
 GameObject:
@@ -22053,8 +22053,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 938622594}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &940476674
 GameObject:
@@ -29247,8 +29247,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 1262046521}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &1267003593
 GameObject:
@@ -29595,8 +29595,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 1280466195}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &1282389605
 GameObject:
@@ -31429,8 +31429,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 1352945322}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &1357834964
 GameObject:
@@ -31604,8 +31604,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 1366655234}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &1378281575
 GameObject:
@@ -32522,8 +32522,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 1431162673}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &1431169699
 GameObject:
@@ -37388,8 +37388,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 1612520666}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &1613747721
 GameObject:
@@ -39359,7 +39359,7 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 1
+  IsFullPagePanda: 0
 --- !u!1 &1736006427
 GameObject:
   m_ObjectHideFlags: 0
@@ -43035,8 +43035,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 1897703694}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &1900851873
 GameObject:
@@ -44810,7 +44810,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.7
+  m_fontSize: 60
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -47007,8 +47007,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 2037354805}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &2042982710
 GameObject:
@@ -47766,6 +47766,7 @@ MonoBehaviour:
   - {x: 590, y: -13, z: 0}
   FullPandaAnim: {fileID: 1733964887}
   FullPandaLastAnim: {fileID: 1909374389}
+  FullPandaImg: {fileID: 1733964889}
   LineWin_Text: {fileID: 901119130}
   RotatePandaParent: {fileID: 1211783482}
   RotatePandaPrefab: {fileID: 1386659190731475712, guid: a66e2030b82cc4935866b048e6f84afd, type: 3}
@@ -48994,7 +48995,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 251.97998, y: 191.51}
-  m_SizeDelta: {x: 1246.68, y: 350}
+  m_SizeDelta: {x: 1246.68, y: 791.19}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2109482361
 MonoBehaviour:
@@ -49474,8 +49475,8 @@ MonoBehaviour:
   currentAnimationState: 0
   AnimationSpeed: 5
   delayBetweenLoop: 0
-  deactivateOnFinish: 1
-  targetToDeactivate: {fileID: 2126484589}
+  deactivateOnFinish: 0
+  targetToDeactivate: {fileID: 0}
   IsFullPagePanda: 0
 --- !u!1 &2129985721
 GameObject:

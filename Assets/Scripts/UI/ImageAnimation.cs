@@ -91,15 +91,6 @@ public class ImageAnimation : MonoBehaviour
 				{
 					targetToDeactivate.SetActive(false);
 				}
-
-				else if (IsFullPagePanda)
-				{
-					Image img = gameObject.GetComponent<Image>();
-					Color c = img.color;
-					c.a = 0f;
-					img.color = c;
-					gameObject.transform.GetChild(0).transform.gameObject.SetActive(true);
-				}
 			}
 		}
 		else

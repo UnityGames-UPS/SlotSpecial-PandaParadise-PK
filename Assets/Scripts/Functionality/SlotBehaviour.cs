@@ -1,4 +1,4 @@
-using System.Drawing;
+//using System.Drawing;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -174,6 +174,7 @@ public class SlotBehaviour : MonoBehaviour
 
     [SerializeField] private GameObject FullPandaAnim;
     [SerializeField] private GameObject FullPandaLastAnim;
+    [SerializeField] private Image FullPandaImg;
     [SerializeField] private TMP_Text LineWin_Text;
 
     [Header("Rotate Panda Free Spin")]
@@ -552,6 +553,7 @@ public class SlotBehaviour : MonoBehaviour
         }
         FullPandaAnim.SetActive(false);
         FullPandaLastAnim.SetActive(false);
+        SetFullPandaWildAnim();
         // DisableFrameHideLayout();
         PayCalculator.ResetLines();
 
@@ -672,11 +674,18 @@ public class SlotBehaviour : MonoBehaviour
 
         if (SocketManager.resultData.expandingWild.isTriggered)
         {
+            CheckPopups = true;
             FullPandaAnim.SetActive(true);
-            yield return new WaitForSeconds(1.5f);
+            ImageAnimation script = FullPandaAnim.GetComponent<ImageAnimation>();
+            yield return new WaitUntil(() => script.currentAnimationState == ImageAnimation.ImageState.NONE);
+            SetFullPandaWildAnim();
+            FullPandaLastAnim.SetActive(true);
+            yield return new WaitForSeconds(0.75f);
+            CheckPopups = false;
         }
+        yield return new WaitUntil(() => !CheckPopups);
 
-         if (IsFreeSpin)
+        if (IsFreeSpin)
         {
             if (SocketManager.resultData.freeSpin.symToWild.Count > 0)
             {
@@ -1015,7 +1024,7 @@ public class SlotBehaviour : MonoBehaviour
             }
             //
         }
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.5f);
 
         ReelBlastAnimParent.SetActive(false);
         yield return StartCoroutine(ShiftSymbolsDownWithDOTween());
@@ -1095,6 +1104,7 @@ public class SlotBehaviour : MonoBehaviour
 
                     newColumn[r] = newImg;
                     Debug.Log($"  eliminated symbol  downwordd : col " + col + "   Row :" + r);
+                    //Destroy(Tempimages[col].slotImages[r].gameObject);
                     Tempimages[col].slotImages[r] = newImg;
                 }
             }
@@ -1133,6 +1143,22 @@ public class SlotBehaviour : MonoBehaviour
         }
 
 
+    }
+
+    private void SetFullPandaWildAnim()
+    {
+        Color c = FullPandaImg.color;
+        if (FullPandaAnim.gameObject.activeInHierarchy)
+        {
+
+            c.a = 0f;
+            FullPandaImg.color = c;
+        }
+        else
+        {
+            c.a = 255f;
+            FullPandaImg.color = c;
+        }
     }
 
     private void DisableFrameHideLayout()
