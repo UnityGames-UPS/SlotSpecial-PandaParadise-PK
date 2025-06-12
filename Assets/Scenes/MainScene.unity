@@ -668,7 +668,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &34961392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1170,7 +1169,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &54539833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,7 +1371,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &58257765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1897,7 +1894,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 84300579}
-  IsFullPagePanda: 0
 --- !u!114 &84300582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2283,7 +2279,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &98416493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2685,7 +2680,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &118524450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3129,7 +3123,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &129863490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3267,7 +3260,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &143185253
 GameObject:
   m_ObjectHideFlags: 0
@@ -4640,7 +4632,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 30e8d58987fd544458f8c851050fe1b6, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -4679,7 +4671,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &197595806
 GameObject:
   m_ObjectHideFlags: 0
@@ -5834,7 +5825,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &265615300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7055,7 +7045,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 354956232}
-  IsFullPagePanda: 0
 --- !u!114 &354956235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7916,7 +7905,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &383337590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9001,7 +8989,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &443830049
 GameObject:
   m_ObjectHideFlags: 0
@@ -10726,7 +10713,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 510880524}
-  IsFullPagePanda: 0
 --- !u!114 &510880527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11770,7 +11756,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &554033839
 GameObject:
   m_ObjectHideFlags: 0
@@ -11946,7 +11931,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &554033842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15277,7 +15261,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &691557482
 GameObject:
   m_ObjectHideFlags: 0
@@ -15338,7 +15321,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: cc25649ce5eae42efaa1035829f00423, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -15377,7 +15360,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &693465742
 GameObject:
   m_ObjectHideFlags: 0
@@ -15576,7 +15558,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &700615083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16052,7 +16033,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &734339432
 GameObject:
   m_ObjectHideFlags: 0
@@ -16509,7 +16489,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &752115611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16608,7 +16587,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 30e8d58987fd544458f8c851050fe1b6, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -16647,7 +16626,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &771949818
 GameObject:
   m_ObjectHideFlags: 0
@@ -16822,7 +16800,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &774064955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17055,7 +17032,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 6d62cef90107c42ed8c752928b3f0dea, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -17094,7 +17071,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &787184147
 GameObject:
   m_ObjectHideFlags: 0
@@ -17709,7 +17685,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &805202590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19484,7 +19459,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &868116398
 GameObject:
   m_ObjectHideFlags: 0
@@ -19545,7 +19519,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 6d62cef90107c42ed8c752928b3f0dea, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -19584,7 +19558,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &868437950
 GameObject:
   m_ObjectHideFlags: 0
@@ -19730,7 +19703,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 869372711}
-  IsFullPagePanda: 0
 --- !u!114 &869372714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20665,7 +20637,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &892575793
 GameObject:
   m_ObjectHideFlags: 0
@@ -20765,7 +20736,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &898546693
 GameObject:
   m_ObjectHideFlags: 0
@@ -20995,7 +20965,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: cc25649ce5eae42efaa1035829f00423, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -21034,7 +21004,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &909350804
 GameObject:
   m_ObjectHideFlags: 0
@@ -21194,7 +21163,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &915943262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21652,7 +21620,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &923586185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22055,7 +22022,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &940476674
 GameObject:
   m_ObjectHideFlags: 0
@@ -22302,7 +22268,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &960160789
 GameObject:
   m_ObjectHideFlags: 0
@@ -22643,7 +22608,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 980531169}
-  IsFullPagePanda: 0
 --- !u!114 &980531172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23611,7 +23575,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1035106299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24403,7 +24366,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1054532024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24619,7 +24581,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1062176249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25118,7 +25079,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1079046891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25605,7 +25565,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1101160303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26025,7 +25984,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 30e8d58987fd544458f8c851050fe1b6, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -26064,7 +26023,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1132539631
 GameObject:
   m_ObjectHideFlags: 0
@@ -26187,7 +26145,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1133758714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27792,7 +27749,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 1206699388}
-  IsFullPagePanda: 0
 --- !u!114 &1206699391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28139,7 +28095,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 6d62cef90107c42ed8c752928b3f0dea, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -28178,7 +28134,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1223330848
 GameObject:
   m_ObjectHideFlags: 0
@@ -28695,7 +28650,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 6d62cef90107c42ed8c752928b3f0dea, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -28734,7 +28689,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1242515499
 GameObject:
   m_ObjectHideFlags: 0
@@ -28819,7 +28773,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1242515502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29249,7 +29202,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1267003593
 GameObject:
   m_ObjectHideFlags: 0
@@ -29597,7 +29549,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1282389605
 GameObject:
   m_ObjectHideFlags: 0
@@ -30588,7 +30539,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1322057876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31431,7 +31381,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1357834964
 GameObject:
   m_ObjectHideFlags: 0
@@ -31606,7 +31555,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1378281575
 GameObject:
   m_ObjectHideFlags: 0
@@ -32524,7 +32472,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1431169699
 GameObject:
   m_ObjectHideFlags: 0
@@ -32599,7 +32546,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1431169702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33567,7 +33513,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1472146676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33688,7 +33633,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1477890087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34195,7 +34139,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1503236356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34914,7 +34857,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1538597867
 GameObject:
   m_ObjectHideFlags: 0
@@ -35074,7 +35016,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1544898885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35631,7 +35572,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 1562015542}
-  IsFullPagePanda: 0
 --- !u!114 &1562015545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36129,7 +36069,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 1573635311}
-  IsFullPagePanda: 0
 --- !u!114 &1573635314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36958,7 +36897,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1606983283
 GameObject:
   m_ObjectHideFlags: 0
@@ -37252,7 +37190,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1610374699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37390,7 +37327,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1613747721
 GameObject:
   m_ObjectHideFlags: 0
@@ -38025,7 +37961,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 1646882753}
-  IsFullPagePanda: 0
 --- !u!114 &1646882756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39036,7 +38971,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 1728529190}
-  IsFullPagePanda: 0
 --- !u!114 &1728529193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39177,7 +39111,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1728574829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39359,7 +39292,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1736006427
 GameObject:
   m_ObjectHideFlags: 0
@@ -39559,7 +39491,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 1739807338}
-  IsFullPagePanda: 0
 --- !u!114 &1739807341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39901,7 +39832,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1754707755
 GameObject:
   m_ObjectHideFlags: 0
@@ -40218,7 +40148,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 1789781576}
-  IsFullPagePanda: 0
 --- !u!114 &1789781579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40327,7 +40256,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 1790094856}
-  IsFullPagePanda: 0
 --- !u!114 &1790094859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41297,7 +41225,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1820118872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42336,7 +42263,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1840283409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42577,7 +42503,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1855110439
 GameObject:
   m_ObjectHideFlags: 0
@@ -42724,7 +42649,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 1855121416}
-  IsFullPagePanda: 0
 --- !u!114 &1855121419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42898,7 +42822,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: cc25649ce5eae42efaa1035829f00423, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -42937,7 +42861,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1897703694
 GameObject:
   m_ObjectHideFlags: 0
@@ -43037,7 +42960,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1900851873
 GameObject:
   m_ObjectHideFlags: 0
@@ -43098,7 +43020,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 30e8d58987fd544458f8c851050fe1b6, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -43137,7 +43059,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &1902474700
 GameObject:
   m_ObjectHideFlags: 0
@@ -43464,7 +43385,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &1909374392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45804,7 +45724,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &2005681837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45903,7 +45822,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: cc25649ce5eae42efaa1035829f00423, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -45942,7 +45861,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &2010090178
 GameObject:
   m_ObjectHideFlags: 0
@@ -46283,7 +46201,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!114 &2017595140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47009,7 +46926,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &2042982710
 GameObject:
   m_ObjectHideFlags: 0
@@ -48634,7 +48550,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 1
   targetToDeactivate: {fileID: 2091723043}
-  IsFullPagePanda: 0
 --- !u!114 &2091723046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49477,7 +49392,6 @@ MonoBehaviour:
   delayBetweenLoop: 0
   deactivateOnFinish: 0
   targetToDeactivate: {fileID: 0}
-  IsFullPagePanda: 0
 --- !u!1 &2129985721
 GameObject:
   m_ObjectHideFlags: 0

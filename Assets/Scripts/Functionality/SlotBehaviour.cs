@@ -144,7 +144,7 @@ public class SlotBehaviour : MonoBehaviour
     internal int BetCounter = 0;
     private double currentBalance = 0;
     private double currentTotalBet = 0;
-    protected int Lines = 9;
+    protected int Lines = 10;
     [SerializeField]
     private int IconSizeFactor = 288;       //set this parameter according to the size of the icon and spacing
     private int numberOfSlots = 5;          //number of columns
@@ -932,11 +932,21 @@ public class SlotBehaviour : MonoBehaviour
                 if (points_anim[k] >= 10)
                 {
                     FrameAnimationimages[(points_anim[k] / 10) % 10].slotImages[points_anim[k] % 10].gameObject.SetActive(true);
+                    // if (Tempimages[(points_anim[k] / 10) % 10].slotImages[points_anim[k] % 10].sprite == myImages[9])
+                    // {
+                    //     Tempimages[(points_anim[k] / 10) % 10].slotImages[points_anim[k] % 10].gameObject.transform.localScale= new Vector3(2f,2f,2f);
+
+                    // }       //This code belongs to scaling of assset in case of Wild
                     StartGameAnimation(Tempimages[(points_anim[k] / 10) % 10].slotImages[points_anim[k] % 10].gameObject);
+
                 }
                 else
                 {
                     FrameAnimationimages[0].slotImages[points_anim[k]].gameObject.SetActive(true);
+                    // if (Tempimages[0].slotImages[points_anim[k]].sprite == myImages[9])
+                    // {
+                    //     Tempimages[0].slotImages[points_anim[k]].transform.localScale = new Vector3(2f, 2f, 2f);
+                    // }   //This code belongs to scaling of assset in case of Wild
                     StartGameAnimation(Tempimages[0].slotImages[points_anim[k]].gameObject);
                 }  // This is for Frame Animation and Symbols Emited
 
@@ -954,10 +964,12 @@ public class SlotBehaviour : MonoBehaviour
                 if (points_anim[k] >= 10)
                 {
                     FrameAnimationimages[(points_anim[k] / 10) % 10].slotImages[points_anim[k] % 10].gameObject.SetActive(false);
+                    // Tempimages[(points_anim[k] / 10) % 10].slotImages[points_anim[k] % 10].gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
                 }
                 else
                 {
                     FrameAnimationimages[0].slotImages[points_anim[k]].gameObject.SetActive(false);
+                    //  Tempimages[0].slotImages[points_anim[k]].transform.localScale = new Vector3(1f, 1f, 1f);
                 }  // This is for To stop the Frame aniamiton for temp , we will add animatio of frame after getting 
 
             }
@@ -1276,9 +1288,10 @@ public class SlotBehaviour : MonoBehaviour
     }
     #endregion
 
+
 }
 
-[Serializable]
+    [Serializable]
 public class SlotImage
 {
     public List<Image> slotImages = new List<Image>(10);
