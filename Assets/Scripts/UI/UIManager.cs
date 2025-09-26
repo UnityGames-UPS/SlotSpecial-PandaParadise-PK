@@ -346,6 +346,7 @@ public class UIManager : MonoBehaviour
         Debug.Log($"#### start popup anim called");
         Debug.Log($"");
         double initAmount = 0;
+        audioController.PlayWLAudio("megaWin");
         if (WinPopupMain_Object) WinPopupMain_Object.SetActive(true);
         WinPopupTextTween = DOTween.To(() => initAmount, (val) => initAmount = val, amount, 5f).OnUpdate(() =>
         {

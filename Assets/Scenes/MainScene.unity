@@ -15244,7 +15244,7 @@ MonoBehaviour:
   bonusdata: []
   _jsManager: {fileID: 500036493}
   JSManager: {fileID: 1029290966}
-  testToken: 4c6f01a55205408983850b24108f335b
+  testToken: 0e4daca9bce446d99a4cd31df9e46841
   RaycastBlocker: {fileID: 697876621}
 --- !u!114 &500036493
 MonoBehaviour:
@@ -65263,14 +65263,6 @@ MonoBehaviour:
   - {fileID: 367765016}
   - {fileID: 809973989}
   - {fileID: 1593337624}
-  GoldCoinSpawningParticals:
-  - {fileID: 1477890084}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  AllOfKindAnimParent: {fileID: 823029119}
-  AllOfKIndAnim: {fileID: 700615080}
   ReelFrameAnimParent: {fileID: 929054267}
   ReelBlastAnimParent: {fileID: 1267003593}
   GoldWildEffect:
@@ -68495,13 +68487,16 @@ MonoBehaviour:
   audioPlayer_button: {fileID: 1742219840284188182}
   audioSpin_button: {fileID: 3653419156959999269}
   clips:
-  - {fileID: 8300000, guid: 797736b99c9f443cfbe8df97ba165a08, type: 3}
-  - {fileID: 8300000, guid: cd4727b4a54c54682bd1c010320b41ef, type: 3}
+  - {fileID: 8300000, guid: 143881c225e5f41fab064cfdc3c7c7a1, type: 3}
+  - {fileID: 8300000, guid: e87d626027e05446696fe513a908259f, type: 3}
   - {fileID: 8300000, guid: 692fef4dceb8b410bbe30f4b667345dc, type: 3}
-  - {fileID: 8300000, guid: 567d42d78a31a446a86f8a75b656d45a, type: 3}
-  - {fileID: 8300000, guid: cd4727b4a54c54682bd1c010320b41ef, type: 3}
-  - {fileID: 8300000, guid: 567d42d78a31a446a86f8a75b656d45a, type: 3}
-  - {fileID: 8300000, guid: eff5c8ad9b6ff4bc9bdcc1cc88c87227, type: 3}
+  - {fileID: 8300000, guid: 7b06622fbf20f451e903c7e6394fa462, type: 3}
+  - {fileID: 8300000, guid: e87d626027e05446696fe513a908259f, type: 3}
+  - {fileID: 8300000, guid: 8ec4e93d0fadc4ac4bce863d7a580afa, type: 3}
+  - {fileID: 8300000, guid: c62e4d5e3a1694298b25eaa5d4fec750, type: 3}
+  - {fileID: 8300000, guid: e7cbb6986a4f54d89a2eeab11440a9cc, type: 3}
+  - {fileID: 8300000, guid: 18a9540acd02747f8a18ed83555433c5, type: 3}
+  - {fileID: 8300000, guid: 4640383fa67ce447b9a3524575e20149, type: 3}
   Bonusclips:
   - {fileID: 8300000, guid: cd4727b4a54c54682bd1c010320b41ef, type: 3}
   - {fileID: 8300000, guid: 692fef4dceb8b410bbe30f4b667345dc, type: 3}
@@ -68926,7 +68921,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f8d433ac12d0c4da3bba299e7b3af496, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0cd905747213e4cc5934d18c305754fa, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
   m_Pitch: 1

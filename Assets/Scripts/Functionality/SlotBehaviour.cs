@@ -675,6 +675,8 @@ public class SlotBehaviour : MonoBehaviour
         //######commented start
         if (SocketManager.FullResultData.features.wild.isColumnWild)
         {
+            audioController.PlayWLAudio("wildwin");
+
             CheckPopups = true;
             FullPandaAnim.SetActive(true);
             ImageAnimation script = FullPandaAnim.GetComponent<ImageAnimation>();
@@ -1243,7 +1245,8 @@ public class SlotBehaviour : MonoBehaviour
                 Tempimages[0].slotImages[a].gameObject.SetActive(false);
             }
             //
-        }
+        }            audioController.PlayWLAudio("blast");
+
         yield return new WaitForSeconds(0.5f);
 
         ReelBlastAnimParent.SetActive(false);

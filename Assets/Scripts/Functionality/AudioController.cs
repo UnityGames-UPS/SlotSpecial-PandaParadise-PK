@@ -81,6 +81,13 @@ public class AudioController : MonoBehaviour
             case "megaWin":
                 index = 4;
                 break;
+            case "wildwin":
+                index = 5;
+                break;
+            case "blast":
+                index = 6;
+                break;
+                
         }
         StopWLAaudio();
         audioPlayer_wl.clip = clips[index];
