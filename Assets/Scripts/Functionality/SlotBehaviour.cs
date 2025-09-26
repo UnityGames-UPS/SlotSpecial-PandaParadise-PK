@@ -869,10 +869,10 @@ public class SlotBehaviour : MonoBehaviour
             // Optional: small delay to avoid tight loop
             yield return null;
         }
-        CheckWinPopups();
-        Debug.Log($"#### check popup false 0");
+        // CheckWinPopups();
+        // Debug.Log($"#### check popup false 0");
 
-        yield return new WaitUntil(() => !CheckPopups);
+        // yield return new WaitUntil(() => !CheckPopups);
         Debug.Log($"#### check popup false 1");
         CheckPopups = false;
 
