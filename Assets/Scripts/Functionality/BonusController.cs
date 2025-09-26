@@ -91,10 +91,10 @@ public class BonusController : MonoBehaviour
             }
             else
             {
-                if (Bonus_Text[i]) Bonus_Text[i].text = (double.Parse(bonusdata[i]) * m_SocketManager.initialData.Bets[slotManager.BetCounter]).ToString();
+                if (Bonus_Text[i]) Bonus_Text[i].text = (double.Parse(bonusdata[i]) * m_SocketManager.initialData.bets[slotManager.BetCounter]).ToString();
                 Debug.Log("Bonus Data: " + bonusdata[i]);
-                Debug.Log("Bet Data: " + m_SocketManager.initialData.Bets[slotManager.BetCounter]);
-                Debug.Log("Multiplied Form: " + (double.Parse(bonusdata[i]) * m_SocketManager.initialData.Bets[slotManager.BetCounter]).ToString());
+                Debug.Log("Bet Data: " + m_SocketManager.initialData.bets[slotManager.BetCounter]);
+                Debug.Log("Multiplied Form: " + (double.Parse(bonusdata[i]) * m_SocketManager.initialData.bets[slotManager.BetCounter]).ToString());
             }
         }
     }

@@ -72,6 +72,8 @@ public class UIManager : MonoBehaviour
     private bool ShowFreeSpin;
     // [SerializeField]
     // private TMP_Text Free_Text;
+    [SerializeField]
+    private GameObject ReconnectPopup_Object;
 
     [Header("Disconnection Popup")]
     [SerializeField]
@@ -233,7 +235,7 @@ public class UIManager : MonoBehaviour
         OpenPopup(LBPopup_Object);
     }
 
-    internal void DisconnectionPopup(bool isReconnection)
+    internal void DisconnectionPopup()
     {
         if (!isExit)
         {
@@ -241,6 +243,22 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    internal void ReconnectionPopup()
+    {
+        OpenPopup(ReconnectPopup_Object);
+    }
+
+    internal void CheckAndClosePopups()
+    {
+        if (ReconnectPopup_Object.activeInHierarchy)
+        {
+            ClosePopup(ReconnectPopup_Object);
+        }
+        if (DisconnectPopup_Object.activeInHierarchy)
+        {
+            ClosePopup(DisconnectPopup_Object);
+        }
+    }
     internal void PopulateWin(int value, double amount)
     {
         BigWin_Gameobject.SetActive(false);
@@ -259,6 +277,8 @@ public class UIManager : MonoBehaviour
                 MegaWin_GameObject.SetActive(true);
                 break;
         }
+                Debug.Log($"#### populate win called with amount: {amount}");
+
 
         StartPopupAnim(amount);
     }
@@ -323,6 +343,8 @@ public class UIManager : MonoBehaviour
 
     private void StartPopupAnim(double amount)
     {
+        Debug.Log($"#### start popup anim called");
+        Debug.Log($"");
         double initAmount = 0;
         if (WinPopupMain_Object) WinPopupMain_Object.SetActive(true);
         WinPopupTextTween = DOTween.To(() => initAmount, (val) => initAmount = val, amount, 5f).OnUpdate(() =>
@@ -345,10 +367,10 @@ public class UIManager : MonoBehaviour
         // OpenPopup(ADPopup_Object);
     }
 
-    internal void InitialiseUIData(string SupportUrl, string AbtImgUrl, string TermsUrl, string PrivacyUrl, Paylines symbolsText)
+    internal void InitialiseUIData( Paylines symbolsText)
     {
-        StartCoroutine(DownloadImage(AbtImgUrl));
-        PopulateSymbolsPayout(symbolsText);
+       // StartCoroutine(DownloadImage(AbtImgUrl));
+        PopulateSymbolsPayout(symbolsText);    ///#######PK
 
     }
 
@@ -358,27 +380,27 @@ public class UIManager : MonoBehaviour
         {
             var symbol = paylines.symbols[i];
 
-            if (symbol.Multiplier[0][0] != 0)
+            if (symbol.multiplier[0] != 0)
             {
-                SymbolsText[i].Text5x.text = "5x - " + symbol.Multiplier[0][0].ToString();
+                SymbolsText[i].Text5x.text = "5x - " + (symbol.multiplier[0]*socketManager.initialData.bets[slotManager.BetCounter]).ToString();
             }
             else
             {
                 SymbolsText[i].Text5x.text = "";
             }
 
-            if (symbol.Multiplier[1][0] != 0)
+            if (symbol.multiplier[1] != 0)
             {
-                SymbolsText[i].Text4x.text = "4x - " + symbol.Multiplier[1][0].ToString();
+                SymbolsText[i].Text4x.text = "4x - " + (symbol.multiplier[1]*socketManager.initialData.bets[slotManager.BetCounter]).ToString();
             }
             else
             {
                 SymbolsText[i].Text4x.text = "";
             }
 
-            if (symbol.Multiplier[2][0] != 0)
+            if (symbol.multiplier[2] != 0)
             {
-                SymbolsText[i].Text3x.text = "3x - " + symbol.Multiplier[2][0].ToString();
+                SymbolsText[i].Text3x.text = "3x - " + (symbol.multiplier[2]*socketManager.initialData.bets[slotManager.BetCounter]).ToString();
             }
             else
             {
@@ -390,23 +412,24 @@ public class UIManager : MonoBehaviour
 
         for (int i = 0; i < paylines.symbols.Count; i++)
         {
-            if (paylines.symbols[i].Name.ToUpper() == "WILD")
+            if (paylines.symbols[i].name.ToUpper() == "WILD")
             {
                 string Description = paylines.symbols[i].description.ToString();
                 if (WildDis_Text) WildDis_Text.text = Description;
             }
-            if (paylines.symbols[i].Name.ToUpper() == "X2")
+            if (paylines.symbols[i].name.ToUpper() == "2XMULTIPLIER")
             {
+                Debug.Log($"####### 2x Multiplier :"+ paylines.symbols[i].description.ToString());
                 string Description = paylines.symbols[i].description.ToString();
                 if (X2Descrition_Text) X2Descrition_Text.text = Description;
             }
 
-            if (paylines.symbols[i].Name.ToUpper() == "FREESPIN")
+            if (paylines.symbols[i].name.ToUpper() == "FREESPIN")
             {
                 string Description = paylines.symbols[i].description.ToString();
                 if (FreeSpinDis_Text) FreeSpinDis_Text.text = Description;
             }
-            if (paylines.symbols[i].Name.ToUpper() == "FREESPINWILD")
+            if (paylines.symbols[i].name.ToUpper() == "FREESPINWILD")
             {
                 string Description = paylines.symbols[i].description.ToString();
                 if (FreeSpinWildDis_Text) FreeSpinWildDis_Text.text = Description;

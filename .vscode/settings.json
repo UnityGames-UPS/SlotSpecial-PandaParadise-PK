@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "SlotPK_PandaParadise.sln"
+    "dotnet.defaultSolution": "SlotSpecial-PandaParadise-PK.sln"
 }
