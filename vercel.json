@@ -1,6 +1,11 @@
 {
   "buildCommand": "git lfs install && git lfs pull",
   "cleanUrls": true,
+  "builds": [
+    { "src": "Build/**", "use": "@vercel/static" },
+    { "src": "index.html", "use": "@vercel/static" }
+  ],
+  "outputDirectory": "Build"
   "headers": [
     {
       "source": "/Build/(.*)\\.unityweb",
