@@ -316,9 +316,9 @@ public class SlotBehaviour : MonoBehaviour
         int i = 0;
         while (i < spinchances)
         {
-            if (FSnum_text) FSnum_text.text = uiManager.FreeSpins.ToString();
             uiManager.FreeSpins--;
             StartSlots();
+            if (FSnum_text) FSnum_text.text = uiManager.FreeSpins.ToString();
             yield return tweenroutine;
             yield return new WaitForSeconds(SpinDelay);
             i++;
@@ -841,7 +841,7 @@ public class SlotBehaviour : MonoBehaviour
                 if (i == symToWildList.Count - 1)
                 {
 
-                    yield return new WaitForSeconds(2.4f);
+                    yield return new WaitForSeconds(3f);
                     CheckPopups = false;
                     Debug.Log("SymToWild Position: " + position[0] + ", " + position[1] + " Checkpoup False");
                 }
@@ -1245,7 +1245,8 @@ public class SlotBehaviour : MonoBehaviour
                 Tempimages[0].slotImages[a].gameObject.SetActive(false);
             }
             //
-        }            audioController.PlayWLAudio("blast");
+        }
+        audioController.PlayWLAudio("blast");
 
         yield return new WaitForSeconds(0.5f);
 
