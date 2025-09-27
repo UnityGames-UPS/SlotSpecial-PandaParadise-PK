@@ -11397,7 +11397,7 @@ MonoBehaviour:
   bonusdata: []
   _jsManager: {fileID: 500036493}
   JSManager: {fileID: 1029290966}
-  testToken: 6895994eac78485fb36776f8190b6ae2
+  testToken: bcd3a67f648c4af3839d2a1f581da362
   RaycastBlocker: {fileID: 697876621}
 --- !u!114 &500036493
 MonoBehaviour:
@@ -17152,7 +17152,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 30e8d58987fd544458f8c851050fe1b6, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -24396,10 +24396,10 @@ RectTransform:
   - {fileID: 1081518442}
   - {fileID: 1426933371}
   - {fileID: 615580721}
-  - {fileID: 1379386247}
-  - {fileID: 384648029}
   - {fileID: 922679128}
   - {fileID: 901119129}
+  - {fileID: 384648029}
+  - {fileID: 1379386247}
   - {fileID: 697876622}
   m_Father: {fileID: 408922280}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26720,7 +26720,7 @@ MonoBehaviour:
   m_text: GAME RULES
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 54ce40f5e8dfc4cf7b48425e66e5a6e9, type: 2}
-  m_sharedMaterial: {fileID: 6021207879015801452, guid: 77d5bd3d3ed3b45f9b560ec237c52534, type: 2}
+  m_sharedMaterial: {fileID: -1066460712807331221, guid: 54ce40f5e8dfc4cf7b48425e66e5a6e9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27825,28 +27825,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'PANDA PARADISE is a virtual slot machine with 10 winning Lines, multiple
-    Multipliers, Free Spins and Expanding Wilds.
-
-    5 symbols combination are paid
-    from left to right.
-
-    4 symbols and 3 symbols combinations are paid both from
-    left to right and right to left.
-
-    All Wins are summed.
-
-    Symbols that
-    play during a Win, after payment, are blasted off and are replaced by symbols
-    above (Cascade).
-
-    The win is calculated by dividing the stake by the number
-    of lines and multiplying it by the coefficient shown in the PAYTABLE.
-
-    Press
-    PLAY button to start game.
-
-    Press AUTOPLAY button to set Autoplay session.'
+  m_text: "\u2022 PANDA PARADISE is a virtual slot machine with 10 winning Lines,
+    multiple Multipliers, Free Spins and Expanding Wilds.\n\u2022 5 symbols combination
+    are paid from left to right.\n\u2022 4 symbols and 3 symbols combinations are
+    paid both from left to right and right to left.\n\u2022 All Wins are summed.\n\u2022
+    Symbols that play during a Win, after payment, are blasted off and are replaced
+    by symbols above (Cascade).\n\u2022 The win is calculated by dividing the stake
+    by the number of lines and multiplying it by the coefficient shown in the PAYTABLE.\n\u2022
+    Press PLAY button to start game.\n\u2022 Press AUTOPLAY button to set Autoplay
+    session.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77d5bd3d3ed3b45f9b560ec237c52534, type: 2}
   m_sharedMaterial: {fileID: 6021207879015801452, guid: 77d5bd3d3ed3b45f9b560ec237c52534, type: 2}

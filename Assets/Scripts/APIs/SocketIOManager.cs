@@ -256,6 +256,11 @@ public class SocketIOManager : MonoBehaviour
         ");
 #endif
     }
+    void CloseGame()
+    {
+        Debug.Log("Unity: Closing Game");
+        StartCoroutine(CloseSocket());
+    }
 
     private void OnSocketState(bool state)
     {

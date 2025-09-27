@@ -882,10 +882,11 @@ public class SlotBehaviour : MonoBehaviour
     {
         if (SocketManager.FullResultData.payload.lineWins.Count > 0)
         {
+            int count = 0;
 
             foreach (var winline in SocketManager.FullResultData.payload.lineWins)
             {
-                int count = 0;
+
                 StartCoroutine(CheckPayoutLineBackend(SocketManager.initialData.lines[winline.lineIndex], winline.lineIndex, count));
                 LineWin_Text.text = winline.win.ToString("f3");
                 if (IsTurboOn || IsFreeSpin)
@@ -1122,6 +1123,7 @@ public class SlotBehaviour : MonoBehaviour
             {
                 int columnIndex = SocketManager.FullResultData.payload.lineWins[LineCount].positions[k];
                 int rowIndex = SocketManager.initialData.lines[lineIndex][columnIndex];
+                Debug.Log("#######WIN LIne is " + lineIndex + " K Value is" + k + "    Row Index: " + rowIndex + " Column Index: " + columnIndex);
 
                 // Encode back into a single int so old logic works
                 // int encoded = rowIndex * 10 + columnIndex;
