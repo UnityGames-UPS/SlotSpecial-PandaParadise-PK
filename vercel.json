@@ -1,4 +1,5 @@
 {
+  "buildCommand": "git lfs install && git lfs pull",
   "cleanUrls": true,
   "headers": [
     {
