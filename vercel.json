@@ -5,7 +5,7 @@
     { "src": "Build/**", "use": "@vercel/static" },
     { "src": "index.html", "use": "@vercel/static" }
   ],
-  "outputDirectory": "Build"
+  "outputDirectory": "Build",
   "headers": [
     {
       "source": "/Build/(.*)\\.unityweb",
